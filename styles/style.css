@@ -1,0 +1,144 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*atma*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/*Raleway*/
+
+body {
+    background-color: #fafae0;
+    color: #161613;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*estilos del header*/
+
+header{
+    padding: 60px;
+    text-align: left;
+    background-color:#f9f9e7;
+    padding-bottom: 0px;
+    margin: 0;
+    font-family: 'atma';
+}
+.header{
+        background-color:#000000;
+        color:#c0a1ae ;
+        border-radius: 5px;
+        padding: 20px;
+
+}
+.container-fluid{
+    background-color: #f9f9e7;;
+}
+
+/* estilos del nav*/
+
+nav {
+    font-family: 'Raleway';
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* Sección de productos */
+
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    gap: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Tarjeta de producto */
+
+.product-card {
+    background-color: #ffffff;
+    border: 2px solid #161613;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.product-card img {
+    width: 50%;
+    max-width: 100px;
+    height: 50%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.product-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 1.2em;
+    margin: 5px 0;
+
+}
+
+/* Botones */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #0ec70e;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #22a711;
+}
+
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #161613;
+    color: #c0a1ae;
+}
+footer a{
+    color: #c0a1ae; 
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .product-card img {
+        max-width: 150px;
+    }
+}
+/*
+colores;
+https://paletadecolores.com.ar/paleta/f9f9e7/505045/161613/c0a1ae/c1e0e0/
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* estilos generales*/
+/*COLORES
+#f9f9e7
+#161613*/
+
+
+
